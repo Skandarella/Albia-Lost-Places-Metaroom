@@ -16,7 +16,7 @@ group DSAG "Albia: Lost Places"
 "Script 2" @ "ALPsharmflower.cos"
 
 "Agent Type" 0
-"Dependency Count" 1
+"Dependency Count" 3
 "Dependency Category 1" 6
 "Dependency Category 2" 2
 "Dependency Category 3" 2
