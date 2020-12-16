@@ -6,50 +6,47 @@ bhvr 1
 setv ov00 0
 mvto 910 8827
 setv va00 grap posx posy
-
 *door in Albia:Lost Places
 new: simp 2 2 20855 "ds portals" 1 11 550
 attr 4
 bhvr 1
 setv ov00 0
-mvsf 9214 6520
+mvto 1868 6215
 setv va01 grap posx posy
-
 link va00 va01 100
-
 scrp 2 2 20855 1
-lock
-stim writ from 75 1 
-setv va00 ov00
-seta va01 targ
-enum 2 2 20855
-doif targ ne va01
-doif ov00 eq va00
-setv va02 posx
-setv va03 posy
-doif from eq pntr
-cmrp va02 va03 1
-targ ownr
-etch 4 0 0
-stim writ targ 95 1
-doif tmvf va02 va03 eq 1
-mvft va02 va03
-endi
-next
-endi
-doif crea from eq 1
-stim writ from 95 1 
-targ from
-doif tmvf va02 va03 eq 1
-doif trck eq from
-cmrp va02 va03 1
-endi
-mvft va02 va03
-endi
-endi
-stop
-endi
-endi
-next
-unlk
+	lock
+	stim writ from 75 1
+	setv va00 ov00
+	seta va01 targ
+	enum 2 2 20855
+		doif targ ne va01
+			doif ov00 eq va00
+				setv va02 posx
+				setv va03 posy
+				doif from eq pntr
+					cmrp va02 va03 1
+					targ ownr
+					etch 4 0 0
+						stim writ targ 95 1
+						doif tmvf va02 va03 eq 1
+							mvft va02 va03
+						endi
+					next
+				endi
+				doif crea from eq 1
+					stim writ from 95 1
+					targ from
+					doif tmvf va02 va03 eq 1
+						doif trck eq from
+							cmrp va02 va03 1
+						endi
+						mvft va02 va03
+					endi
+				endi
+				stop
+			endi
+		endi
+	next
+	unlk
 endm
