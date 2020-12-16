@@ -6,20 +6,23 @@ group DSAG "Albia: Lost Places"
 "Dependency 1" "Albia lost PlacesC12.blk"
 "Dependency 2" "berrybush.c16"
 "Dependency 3" "Sharmflower.c16"
+"Dependency 4 "ds portals.c16"
 "Agent Animation Gallery" "blnk"
 "Agent Description" "Albia: Lost Places"
 "Agent Animation File" "blnk.c16"
 "Agent Animation Gallery" "blnk"
 
-"Script Count" 2
+"Script Count" 3
 "Script 1" @ "Albia lost PlacesC12.cos"
 "Script 2" @ "ALPsharmflower.cos"
+"Script 3" @ "ALPdoor.cos"
 
 "Agent Type" 0
 "Dependency Count" 3
 "Dependency Category 1" 6
 "Dependency Category 2" 2
 "Dependency Category 3" 2
+"Dependency Category 4" 2
 "Agent Sprite First Image" 1
 
 
