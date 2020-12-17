@@ -14,7 +14,7 @@ group DSAG "Albia Lost Places"
 "Script Count" 3
 "Script 1" @ "AlbiaLostPlacesV2.cos"
 "Script 2" @ "ALPdoor.cos"
-"Script 2" @ "ALPsharmflower.cos"
+"Script 3" @ "ALPsharmflower.cos"
 
 "Agent Type" 0
 "Dependency Count" 3
