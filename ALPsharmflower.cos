@@ -10,8 +10,8 @@ reps 15
 	setv ov99 0
 	tick rand 200 1000
 *C3 norn meso
-	doif tmvt rand 1822 3926 6348 eq 1
-		mvto rand 1822 3926 6348
+	doif tmvt rand 158 2305 6174 eq 1
+		mvto rand 1822 3926 6174
 	endi
 repe
 
